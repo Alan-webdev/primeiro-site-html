@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com HTML</title>
+</head>
+<body>
+    <H1 id="voltar">Primeiros passos com HTML</H1>
+    <hr>
+    <h2>Índice</h2>
+            <ul><a href="#history">História de um passado não tão distante</a>
+                <ul><a href="#computer">i. Primeiros computadores</a></ul>
+                <ul><a href="#internet">ii. Surgimento da Internet</a></ul>
+                <ul><a href="#names">iii. Grandes nomes</a></ul>
+            </ul>        
+		        <ul><a href="#cli-and-serv">1.1. O que são Cliente e Servidor</a>
+			        <ul><a href="#concept">i. Conceito</a></ul>
+                    <ul><a href="#server">ii. Tipos de servidores</a></ul>
+                </ul>
+		        <ul><a href="#about_prog">1.2. Sobre Linguagens de Programação Web
+			        <ul><a href="#serv-side">i. Linguagem Server-Side</a></ul>
+                    <ul><a href="#client-side">ii. Linguagem Client-Side</a></ul>
+                    <ul><a href="#html_1">iii. HTML: uma linguagem de programação?</a></ul>
+                </ul>
+            </ul>
+            <ul><a href="#html_2">2. HTML na prática</a>
+                <ul><a href="#estrutura">2.1. Estrutura básica do HTML</a></ul>
+                <ul><a href="#tags">2.2. Falando sobre Tags</a></ul>
+                <ul><a href="#listas">2.3. Listas Ordenadas e Não Ordenadas</a></ul>
+            </ul>
+            <ul><a href="#refer">3. Referências</a></ul>
+    <hr> 
+
+    <h2>1. História de um passado não tão distante</h2>
+    <p>Clientes, servidores, rede de computadores, programas e hosts. Esta salada de palavras é uma pequena parcela de um vasto universo da computação. De imediato, pode lhe parecer algo completamente complexo e voltado exclusivamente para a galera da área de TI. Sim e não! Meu nome é Alan Borges, seja bem vindo ao meu primeiro site <abbr title="Hypertext Markup Language">HTML</abbr> e neste artigo, irei lhe apresentar e explicar estes e outros termos para que você saia daqui mais aficionado por tecnologia do que já é (rsrs). Mas antes, precisamos voltar ao tempo e conhecer um pouco da história da Web. Vamos lá!?</p>
+    
+    <h2 id="computer">i. Primeiros computadores</h2>
+    <p>Se formos considerar que a palavra "computador" vem do verbo "<strong>computar</strong>" e que finalmente significa "calcular", podemos dizer que a criação dos computadores remontam desde o período da idade antiga. Uma das primeiras máquinas de computar foi o "ábaco", um instrumento mecânico de origem chinesa criado no século V a.C.
+    <p>Ele é considerado o "primeiro computador" pois trata-se de uma espécie de calculadora que realiza operações algébricas.</p>
+    <img width="400" src="https://3.bp.blogspot.com/-vNfA9p592JA/VceMbZ1fV1I/AAAAAAAABgI/SMZMZuD7szo/s1600/boulier-chinois-en-coffret-style-antiquite-chinoise.jpg" />
+    <a target="_blank" href="https://3.bp.blogspot.com/-vNfA9p592JA/VceMbZ1fV1I/AAAAAAAABgI/SMZMZuD7szo/s1600/boulier-chinois-en-coffret-style-antiquite-chinoise.jpg"><blockquote>Fonte: https://3.bp.blogspot.com/-vNfA9p592JA/VceMbZ1fV1I/AAAAAAAABgI/SMZMZuD7szo/s1600/boulier-chinois-en-coffret-style-antiquite-chinoise.jpg</blockquote></a>
+    <p>Contudo, o computador como conhecemos hoje, passou por diversas transformações e avanços ao longo do tempo. Junto com o avanço nas áreas da matemática, engenharia, eletrônica, dentre outras, ele foi acompanhando o progresso e sempre se apresenta com versões cada vez mais rápidas e potentes.</p>
+    <p>De acordo com a história da computação podemos dividi-la em quatro períodos.</p>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Primeira Geração</h3>
+    <p>Eram computadores imensos e consumiam muita energia. Surgiram na mesma época na Alemanha, Inglaterra e Estados Unidos. Suas principais funções eram resolver alguns problemas matemáticos e cálculos de bombardeios em guerra.</p>
+    <p>O ENIAC (Eletronic Numerical Integrator and Computer) é, literalmente, grande exemplo. Possuía 19.000 válvulas e consumia cerca de 200 quilowhatts.</p>
+    <img width="400" src="https://th.bing.com/th/id/OIP.St7h0Y362Cs1l8sF8PNk8wHaE8?pid=ImgDet&rs=1" />
+    <a target="_blank" href="https://www.inquirer.com/science/eniac-75-anniversary-computer-penn-philadelphia-20210211.html"><blockquote>Fonte: https://www.inquirer.com/science/eniac-75-anniversary-computer-penn-philadelphia-20210211.html</blockquote></a>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Segunda Geração</h3>
+    <p>Na segunda geração houve a substituição das válvulas que eram maiores e mais lentas pelos transistores. Ainda assim, os computadores possuiam dimensões muito grandes.</p>
+    <p>A capacidade de memória principal do computador se torna bem maior que os da primeira geração e com a implementação de discos removíveis, os dados e informações recebidas se tornaram mais precisos e alimentados em tempo real.</p>
+    <p>Ainda assim, eles possuiam grandes dimensões.</p>
+    <img width="400" src="https://www.opinion.com.bo/asset/thumbnail,992,558,center,center/media/opinion/images/2014/01/14/2014N117120.jpg" />
+    <a target="_blank" href="https://www.opinion.com.bo/articulo/genios-de-la-informatica/los-padres-de-la-computadora/20140113205000477501.html"><blockquote>Fonte: https://www.opinion.com.bo/articulo/genios-de-la-informatica/los-padres-de-la-computadora/20140113205000477501.html</blockquote></a>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Terceira Geração</h3>
+    <p>É nesta época que os chips foram criados e a utilização de computadores pessoais começou. Isso se deu em função do uso dos circuitos integrados no lugar dos transistores.</p>
+    <p>Logo, aumentou-se a capacidade de processamento e a dimenção dos PC's reduziram bastante.</p>
+    <img width="400" src="https://www.homecomputermuseum.nl/wp-content/uploads/2021/03/IBM-Setup-1200x874.png" />
+    <a target="_blank" href="https://www.homecomputermuseum.nl/wp-content/uploads/2021/03/IBM-Setup-1200x874.png"><blockquote>Fonte: https://www.homecomputermuseum.nl/wp-content/uploads/2021/03/IBM-Setup-1200x874.png</blockquote></a>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Quarta Geração</h3>
+    <p>Com o desenvolvimento da Tecnologia da Informação (TI), é presenciado nos computadores uma considerável diminuição de tamanho, aumento da velocidade e da capacidade de processamento.
+    <p>São incluídos os microprocessadores com gasto cada vez menor de energia.</p>
+    <p>Nesse período, a partir da década de 90, os computadores pessoais caem no gosto "popular" principalmente por já serem vendidos com softwares integrados.</p>
+    <img width="400" src="https://www.consultancy.nl/media/Oude-PC-17582.jpg" />
+    <a target="_blank" href="https://www.consultancy.nl/media/Oude-PC-17582.jpg"><blockquote>Fonte: https://www.consultancy.nl/media/Oude-PC-17582.jpg</blockquote></a>
+    <p>A partir da virada do milênio, começam a surgir os computadores de mão com conexão móvel e navegação web. Exemplos deles são os smartphones, iPods, iPads e tablets.</p>
+    <img width="400" src="https://i.pinimg.com/564x/a6/03/94/a603946772ddb4e2f600ee284baf0531.jpg" />
+    <a target="_blank" href="https://i.pinimg.com/564x/a6/03/94/a603946772ddb4e2f600ee284baf0531.jpg"><blockquote>Fonte: https://i.pinimg.com/564x/a6/03/94/a603946772ddb4e2f600ee284baf0531.jpg</blockquote></a>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    
+    <h2 id="internet">ii. Surgimento da Internet</h2>
+    <p>Como vimos anteriormente, o desenvolvimento dos computadores trouxeram muitos benefícios. Porém, nos anos 60, diante de uma Guerra Fria, os americanos pensavam: se formos atacados e o nosso único servidor for destruído com todas as nossas informações. O que faremos? Como contra-atacar à tempo?</p>
+    <p>Diante desses problemas, o Departamento de Defesa americano criou uma rede de computadores<a href="#arpa"><sup>[1]</sup></a> em pontos estratégicos para, em caso de destruição de um de seus servidores, todas as suas informações valiosas seriam preservadas em função da descentralizão estratégica.</p>
+    <p>Essa rede foi criada pela ARPA (Advanced Research Projects Agency) e era conhecida como ARPANET. Suas estruturas de rede manipulavam grandes volumes de informações e passavam por debaixo da terra para dificultar sua destruição. Essa estrutura era chamada de <i>blackbone</i> ("Espinha Dorsal").
+    <p>O acesso à ARPANET era restrito a militares e pesquisadores e o acesso ao público em geral foi demorado pois existia o temor desta tecnologia ser mal utilizada por civis e países não-aliados.</p>
+    <img width="400" src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_807/https://hardtec.com.br/wp-content/uploads/2019/12/1afc66d7078e-article-arpanet-infographic-map.png" />
+    <a target="_blank" href="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_807/https://hardtec.com.br/wp-content/uploads/2019/12/1afc66d7078e-article-arpanet-infographic-map.png"><blockquote>Fonte: https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_807/https://hardtec.com.br/wp-content/uploads/2019/12/1afc66d7078e-article-arpanet-infographic-map.png</blockquote></a>    
+    <p>No Brasil, a conexão de computadores por uma rede somente era possível para fins estatais. Foi então que em 1991, a comunidade acadêmica brasileira conseguiu, através do Ministério da Ciência e Tecnologia, acesso a redes de pesquisas internacionais.</p>
+    <p>Somente em maio de 1995, a rede foi aberta para fins comerciais, ficando a cargo da iniciativa privada a exploração dos serviços. Hoje, para conectar seu computador, o usuário paga os serviços de um provedor de acesso ou tem conexão direta.</p>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+
+    <h2 id="names">iii. Grandes Nomes</h2>
+    <h3>Grace Murray Hopper</h3>
+    <img width="300" src="https://wikis.fdi.ucm.es/ELP/images/6/6b/Gracehopper.jpg" />
+    <ul>
+        <li>Uma das primeiras programadoras do Mark I em 1944;<a href="#nro2"><sup>[2]</sup></a></li>
+        <li>Criadora da Linguagem de Programação COBOL;</li>
+        <li>Serviu na Marinha dos Estados Unidos.</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Joseph Carl Robnett Licklider</h3>
+    <img width="300" src="https://th.bing.com/th/id/OIP.7-YdKdzk4FHsu6gtjTsxjgAAAA?pid=ImgDet&rs=1" />
+    <ul>
+        <li>Recrutado pela DARPA depois de teorizar sobre uma rede "galática" de computadores;</li>
+        <li>Plantou a "semente" da comunicação entre dois pontos distintos através do computador.</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Robert E. Kahn</h3>
+    <img width="300" src="https://i.pinimg.com/736x/2e/c3/0d/2ec30dfc54d08ce233a3d81ee184171b--vint-cerf-the-internet.jpg" />
+    <ul>
+        <li>Primeira apresentação pública da ARPANET;</li>
+        <li>Apresentou o primeiro E-mail;</li>
+        <li>Criador do TCP/IP.</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Tim Berners-Lee</h3>
+    <img width="300" src="https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/0/3/c/03cf8507d0_50142286_berners-lee-1000.jpg" />
+    <ul>
+        <li>Inventor do WWW (World Wide Web);</li>
+        <li>Diretor do <i>World Wide Web Consortion</i> (W3C);</li>
+        <li>Popularizou o HTTP e o HTML.</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Marc Andreessen</h3>
+    <img width="300" src="https://th.bing.com/th/id/R.232343ebcf20c5d837db4df3e07627a2?rik=Yy2Vm1Zq7qbiTQ&pid=ImgRaw&r=0" />
+    <ul>
+        <li>(Re)inventou o navegador com o <b>NetScape</b>;</li>
+        <li>Tornou o navegador mais "amigável" e implementou recursos gráficos;</li>
+        <li>Sua empresa dominou o mercado com 90% de uso na internet mas foi superado pelo <b>Internet Explorer</b> anos mais tarde.</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Bill Gates</h3>
+    <img width="300" src="https://th.bing.com/th/id/R.d23ca8a0be18f83c0431d22416fde49d?rik=7H6Y%2b%2bCR8g535A&pid=ImgRaw&r=0" />
+    <ul>
+        <li>Fundador da <b>Microsoft</b>;</li>
+        <li>Criou o Internet Explorer;</li>
+        <li>Tornou o computador um item acessível para todos e, consequentemente, o acesso à internet.</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Steve Jobs</h3>
+    <img width="300" src="https://th.bing.com/th/id/OIP.toyZrjbjVT5AogLd8l7DyAHaHa?pid=ImgDet&rs=1" />
+    <ul>
+        <li>Fundador da <b>Apple</b>;</li>
+        <li>Concorrente direta da Microsoft;</li>
+        <li>Popularizou o smartphone que conhecemos hoje através do lançamento do iPhone.</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h2 id="cli-and-serv">1.1. O que são Cliente e Servidor</h2>
+    <h2 id="concept">i. Conceito</h2>
+    <p>O conceito de cliente-servidor é um modelo de comunicação que vincula vários dispositivos através de uma rede.</p>
+    <p>Chamamos de Cliente o dispositivo que exige determinados serviços a um Servidor. Já o Servidor, refere-se ao equipamento que presta serviços aos dispositivos (Clientes) conectados a ele. Essa conexão ocorre através de uma rede. Enquanto um solicita (Cliente), o outro fornece(Servidor).</p>
+    <p>O Servidor pode ser executado em mais de um equipamento e também pode ser mais de um programa. A função dele é garantir que os recursos estejam disponíveis sempre que um cliente os exigir. A depender do serviço necessitado, podemos ter um tipo específico de Servidor. </p>
+    <img width="400" src="https://i.pinimg.com/736x/a6/c0/68/a6c06888e290a5da3669221c055c60fc.jpg" />
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h2 id="server">ii. Tipos de servidores</h2>
+    <p>Como dito anteriormente, existem alguns tipos de servidores no mercado. Desde as necessidades mais básicas até às mais complexas. Veja alguns exemplos:</p>
+    <br>
+    <h3>Servidor de Arquivos</h3>
+    <p>Bastante utilizado em ambientes corporativos, possui servidor de arquivos para que vários usuários tenham acesso às pastas, arquivos, documentos, sistemas e impressoras de uso comum.</p>
+    <img width="300" src="https://1.bp.blogspot.com/-g5N9m3QVvXo/X9bcutgvqqI/AAAAAAAAAZQ/4WgyU5_1GVw1dNIi9na5qqa_WJXXXC3WACLcBGAsYHQ/s16000/tanya-jawab.png" />
+    <small><a href="#voltar">(Voltar)</a></small>
+    <h3>Servidor de E-mails</h3>
+    <p>Basicamente existe para receber, armazenar e encaminhar e-mails para outros servidores, por meio de protocolos SMTP.</p>
+    <p>Um servidor de e-mail geralmente é usado em conjunto com o servidor web para minimizar os riscos de os serviços de e-mail ficarem indisponíveis e acabar prejudicando transações comerciais, acadêmicas, dentre outros.</p>
+    <img width="300" src="https://cdn.woorise.com/wp-content/uploads/2020/04/sending-a-sales-email-that-converts.png" />
+    <small><a href="#voltar">(Voltar)</a></small>
+    <h3>Servidor Web</h3>
+    <p>Um servidor web poderá armazenar conteúdo estático, quando os sites ali armazenados contiverem um número fixo de páginas a retornar para o usuário. E também poderá ser dinâmico, permitindo alterar o conteúdo das páginas web enquanto está sendo executado no navegador do usuário.</p>
+    <img width="300" src="https://uploads-ssl.webflow.com/60b888ee0925fb7bd8537537/60eec0d8e4c65b0eb5d6ee19_UX-CX_Fabuza_v1-p-800.jpeg" />
+    <small><a href="#voltar">(Voltar)</a></small>
+    <h3>Servidor de Streaming</h3>
+    <p>É obrigatório que tenha um excelente desempenho e alta disponibilidade pois prestam serviços de transmissão de conteúdo em vídeo e áudio via web.</p>
+    <p>Grandes empresas de streaming como o <b>YouTube</b>, a <b>Netflix</b> e a <b>Amazon Prime</b>, dependem de alta performance para fazer suas transmissões online. </p>
+    <img width="300" src="https://image.freepik.com/vector-gratis/gente-viendo-pelicula-casa-juntos_23-2148571476.jpg" />
+    <small><a href="#voltar">(Voltar)</a></small>
+    <h3>Servidor de Jogos</h3>
+    <p>Foco na velocidade: A velocidade de resposta ao cliente deve ser a mais rápida possível em servidores de jogos, independente da localidade do jogador.</p>
+    <p>Tem a grande vantagem de oferecer uma infraestrutura física dentro do data center exclusivamente para um único usuário.</p>
+    <img width="300" src="https://image.freepik.com/vektoren-kostenlos/charakter-der-videospiel-spielt_23-2148529670.jpg" />
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+
+    <h2 id="about_prog">1.2. Sobre Linguagens de Programação Web</h2>
+    <h2 id="serv-side">i. Linguagem Server-Side</h2>
+    <p>A linguagem de Servidor é a linguagem que rodará <i>"por trás dos panos"</i>, fornecendo a lógica principal da aplicação.</p>
+    <p>Sempre que o usuário entra numa página ou clica num link, por exemplo, o pedido é enviado para o servidor. A linguagem server-side recebe o requerimento e faz o processamento.</p>
+    <p>E esta linguagem que verificará se o usuário está logado e buscará informações no banco de dados. </p>
+    <p>Como a linguagem server-side processa as requisições antes de enviar para o navegador, isso significa que uma vez que a página foi enviada ao navegador do usuário, não há mais nada que a linguagem possa fazer até que um novo "comando" seja enviado. Ou seja, não é possível usar estas linguagens para manipular a página do usuário em tempo real.</p>
+    <h3>Exemplos de Linguagens Server-Side</h3>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/PHP" target="_blank">PHP</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/ASP" target="_blank">ASP</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/.NET" target="_blank">.NET</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Oracle_(banco_de_dados)" target="_blank">Oracle</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Python" target="_blank">Python</a></li>
+        <li>Dentre outras...</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h2 id="client-side">ii. Linguagem Client-Side</h2>
+    <p>Já a linguagem do cliente é uma linguagem que é executada no computador do próprio usuário, e por isso, é usada nas situações em que a linguagem server-side não tem alcance.</p>
+    <p>Entre as linguagens client-side, há o <a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>, que é a única que realmente roda no navegador do usuário. Através do JavaScript é possível manipular a página do usuário diretamente, fazendo coisas dinâmicas que vão desde mudar o valor de um campo do formulário até criar uma área redimensionável que pode ser arrastada pela página.</p>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <br>
+    <h2 id="html_1">iii. HTML: uma linguagem de programação?</h2>
+    <p>O HTML não é considerado uma linguagem de programação e sim uma <b>linguagem de marcação</b>. Resumidamente, linguagem de marcação é um conjunto de regras e códigos que define como os elementos da página são exibidos. Esses marcadores dizem se uma frase deve ser exibida em negrito e centralizada, o tamanho e cores da fonte, a localização de uma imagem, um links e muito mais.</p>
+    <p>Por ser um <b>padrão mundial</b>, todo navegador (ou browser) do mercado consegue interpretar os códigos HTML contidos na página e com isso exibir as páginas da mesma maneira.</p>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+
+    <h2 id="html_2">2. HTML na prática</h2>
+    <h3 id="estrutura">2.1. Estrutura básica do HTML</h3>
+    <p>Basicamente, a estrutura do HTML se apresenta da seguinte forma:</p>
+    <img width="500" src="http://meusite.mackenzie.com.br/mamelia/imagens/est2.jpg" />    
+    <p>O elemento <b>< html ></b>...<b>< /html ></b> marca o início e o final do programa. Dentro dele existe o <b>< head ></b> (cabeçalho) e o <b>< body ></b> (corpo). </p>
+    <p><b>< head ></b> marca a área do cabeçalho.</p>
+    <p><b>< title ></b> contém o título do documento que aparecerá na barra de título da janela do browser.</p>
+    <p><b>< body ></b> define a aparência do corpo do documento. Conterá toda a informação que será formatada e exibida pelo browser.</p>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3 id="tags">2.2. Falando sobre Tags</h3>
+    <p>Veja algumas <b>tags</b> utilizadas no HTML:</p>
+    <p><b>< i >...< /i ></b> =  <i>itálico</i></p>
+    <p><b>< b >...< /b ></b> =  <b>negrito</b></p>
+    <p><b>< u >...< /u ></b> =  <u>underline</u></p>
+    <p><b>< p >...< /p ></b> = usado para criar parágrafos</p>
+    <p><b>< mark >...< /mark ></b> =  <mark>marca texto</mark></p>
+    <p>H< sub >2< /sub >O = H<sub>2</sub>O</p>
+    <p>< blockquote > ... < /blockquote > = essa é a tag utilizada e...
+    <p>O texto fica assim:</p>
+    <blockquote>Texto com citação fica um pouco mais adiante em comparação a um paragrafo.</blockquote>
+    <p>A tag < del > serve para < del > riscar < /del > deletar uma palavra, por exemplo. = <mark>A tag < del > serve para <del>riscar</del> deletar uma palavra, por exemplo.</del></mark></p>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3 id="listas">2.3. Listas Ordenadas e Não Ordenadas</h3>
+    <p>As Listas são recursos do HTML em que são possiveis criar tópicos de textos de forma ordenada (sequência numérica) e de forma não ordenada.</p>
+    <br>
+    <h3>Listas Ordenadas</h3>
+    <p>As Listas Ordenadas são recursos do HTML em que são possiveis criar tópicos de textos de <mark>forma ordenada</mark> (sequência numérica) e de forma não ordenada.</p>
+    <p>São usadas para indicar alguma sequência ou numeração. As tags usadas para realizarmos uma lista ordenada são < ol > que deriva de <i>ordered list</i> (Lista Ordenada) e < li > derivada de <i>list item</i> (item da lista):</p>
+    <p>< ol ></p>
+	<p>		< li > Alan < /li ></p>
+	<p>		< li > Bianca < /li ></p>
+	<p>		< li > Celso < /li ></p>
+	<p>	< /ol ></p>
+    <p>Teremos o seguinte resultado:</p>
+    <ol>
+        <li>Alan</li>
+        <li>Bianca</li>
+        <li>Celso</li>
+    </ol>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3>Listas Não Ordenadas</h3>
+    <p>Já as Listas Não Ordenadas são utilizadas para listar itens identificados por marcadores. Seu uso é bastante amplo. Seja na construção de um menu de navegação ou quando você precisar relacionar uma lista de itens sem necessariamente se importar com a ordem deles. As tags usadas para realizarmos uma lista não ordenada são < ul > que deriva de <i>unordered list</i> (Lista Não Ordenada) e < li > derivada de <i>list item</i> (item da lista):</p>
+    <p>< ul ></p>
+	<p>		< li > Queijo < /li ></p>
+	<p>		< li > Ovos < /li ></p>
+	<p>		< li > Leite < /li ></p>
+	<p>	< /ul ></p>
+    <p>Teremos o seguinte resultado:</p>
+    <ul>
+        <li>Queijo</li>
+        <li>Ovos</li>
+        <li>Leite</li>
+    </ul>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+    <h3 id="refer">3. Referências</h3>
+    <ol type="1">
+        <li><a id="arpa" target="_blank" href="https://hardtec.com.br/arpanet-as-origens-da-internet/">Hardtec - Soluções em Ti</a></li>
+        <p>Consultado em 02 de novembro de 2022</p>
+        <li><a id="nro2" target="_blank" href="https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/ETTxssKS281Ps0wt1aflqk0BfzoqwbFf2ec6IenBpNXGmg?rtime=OieNwsW-2kg">Módulo 1 - HTML</a></li>
+        <p>Consultado em 02 de novembro de 2022</p>
+        <li><a target="_blank" href="https://www.fatosdesconhecidos.com.br/o-surgimento-da-internet/">Fatos Desconhecidos</a></li>
+        <p>Consultado em 02 de novembro de 2022</p>
+        <li><a target="_blank" href="https://brasilescola.uol.com.br/curiosidades/como-surgiu-a-internet.htm">Brasil Escola</a></li>
+        <p>Consultado em 02 de novembro de 2022</p>
+        <li><a target="_blank" href="https://www.melhoreshospedagem.com/tipos-de-servidores/">Melhores Hospedagens</a></li>
+        <p>Consultado em 02 de novembro de 2022</p>
+        <li><a target="_blank" href="https://www.ultra64.com.br/o-que-sao-e-quais-as-diferencas-entre-cliente-e-servidor/">Ultra 64</a></li>
+        <p>Consultado em 02 de novembro de 2022</p>
+        <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Learn">MDN - Mozilla Developers</a></li>
+        <p>Consultado em 03 de novembro de 2022</p>
+        <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Linguagem_server-side">Wikipedia - Server-Side</a></li>
+        <p>Consultado em 03 de novembro de 2022</p>
+        <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Linguagem_client-side">Wikipedia - Client-Side</a></li>
+        <p>Consultado em 03 de novembro de 2022</p>
+        <li><a target="_blank" href="http://meusite.mackenzie.com.br/mamelia/home.html">Tecnologia Web One</a></li>
+        <p>Consultado em 04 de novembro de 2022</p>
+        <li><a target="_blank" href="https://portalwebdesigner.com/programacao/">Portal Web Designer</a></li>
+        <p>Consultado em 04 de novembro de 2022</p>
+        <li><a target="_blank" href="https://tutorialehtml.com/pt/html-tutorial-listas/">Guia do Iniciante para HTML</a></li>
+        <p>Consultado em 04 de novembro de 2022</p>
+    </ol>
+    <small><a href="#voltar">(Voltar)</a></small>
+    <hr>
+</body>
+</html>
