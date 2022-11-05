@@ -1,6 +1,6 @@
 # primeiro-site-html
-Meu primeiro site feito em HTML
-Projeto realizado a partir do Bootcamp HTML Web Developer idealizado pela DIO.me
+Meu primeiro site feito em HTML.
+Projeto realizado a partir do Bootcamp HTML Web Developer idealizado pela DIO.me.
 Nesse website feito exclusivamente em HTML, foram utilizadas tags aprendidas durante as aulas práticas.
 
 Os requisitos do projeto foram:
